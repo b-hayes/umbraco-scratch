@@ -13,13 +13,14 @@
  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
- 	
+    
  <title></title>
  <meta name="description" content="">
  <meta name="author" content="">
 
  <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,700,600' rel='stylesheet' type='text/css'>
  <link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+ 
 
  <link rel="stylesheet" href="../../Umbraco/assets/css/nonodes.style.min.css" />
 
@@ -29,50 +30,27 @@
 
 </head>
 <body>
-
+<style>
+    ul > li {
+        margin-left: 4vw;
+        text-align: left;
+    }
+</style>
 <section>
-	<article>
-		<div>
-			<div class="logo"></div>
+    <article>
+        <div>
+            <div class="logo"></div>
+            
+            <h1>@Umbraco.Field("promoTitle")</h1>
+                
+            <p style="text-align: left">@Umbraco.Field("promoSubTitle")</p>
 
-			<h1>WEEELCOME!!!! Replace this with content data later m8.</h1>
-			<h3>You're seeing the wonderful page because your website doesn't contain any published content yet.</h3>
-
-			<div class="cta">
-				<a href="<%= IOHelper.ResolveUrl(SystemDirectories.Umbraco) %>" class="button">Open Umbraco</a>
-			</div>
-
-
-			<div class="row">
-                <div class="col-md-4">Just testing if bootstrap classes are working.
-                    blah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blah
-                </div>
-                <div class="col-md-4">Just testing if bootstrap classes are working.
-                    blah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blah
-                </div>
-                <div class="col-md-4">Just testing if bootstrap classes are working.
-                    blah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blahblah blah blah
-                </div>
+            <div class="cta">
+                <a href="<%= IOHelper.ResolveUrl(SystemDirectories.Umbraco) %>" class="button">@Umbraco.Field("promoButtonText")</a>
             </div>
-					
-			<div class="row">
-				<div class="col">
-					<h2>Easy start with Umbraco.tv</h2>
-					<p>We have created a bunch of 'how-to' videos, to get you easily started with Umbraco. Learn how to build projects in just a couple of minutes. Easiest CMS in the world.</p>
-					
-					<a href="http://umbraco.tv?ref=tvFromInstaller" target="_blank">Umbraco.tv &rarr;</a>
-				</div>
 
-				<div class="col">
-					<h2>Be a part of the community</h2>
-					<p>The Umbraco community is the best of its kind, be sure to visit, and if you have any questions, we’re sure that you can get your answers from the community.</p>
-					
-					<a href="http://our.umbraco.org?ref=ourFromInstaller" target="_blank">our.Umbraco &rarr;</a>
-				</div>
-			</div>
-
-		</div>
-	</article>
+        </div>
+    </article>
 
 </section>
 

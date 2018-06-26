@@ -774,3 +774,71 @@ System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.Ht
    at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
    at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
    at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-06-26 20:38:02,079 [26] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P8812/T21/D4] Login attempt succeeded for username bhayes@mytyresite.com from IP address ::1
+2018-06-26 20:38:02,093 [26] INFO  Umbraco.Web.Security.WebSecurity - [P8812/T21/D4] User Id: 0 logged in
+2018-06-26 20:40:27,601 [8] INFO  Umbraco.Core.CoreBootManager - [P8172/T1/D2] Umbraco 7.2.8 application starting on B-LAPTOP
+2018-06-26 20:40:27,648 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Determining hash of code files on disk
+2018-06-26 20:40:27,655 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Hash determined (took 5ms)
+2018-06-26 20:40:27,660 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-06-26 20:40:27,678 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 16ms)
+2018-06-26 20:40:27,761 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-06-26 20:40:27,762 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2018-06-26 20:40:27,762 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2018-06-26 20:40:27,764 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2018-06-26 20:40:27,778 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-06-26 20:40:27,779 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2018-06-26 20:40:27,779 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-06-26 20:40:27,783 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 3ms)
+2018-06-26 20:40:27,825 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-06-26 20:40:27,826 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2018-06-26 20:40:27,826 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-06-26 20:40:27,827 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2018-06-26 20:40:28,502 [8] INFO  Umbraco.Core.DatabaseContext - [P8172/T1/D2] CanConnect = True
+2018-06-26 20:40:28,513 [8] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P8172/T1/D2] Initializing Umbraco internal event handlers for cache refreshing
+2018-06-26 20:40:28,533 [8] INFO  Umbraco.Web.Search.ExamineEvents - [P8172/T1/D2] Initializing Examine and binding to business logic events
+2018-06-26 20:40:28,576 [8] INFO  Umbraco.Web.Search.ExamineEvents - [P8172/T1/D2] Adding examine event handlers for index providers: 3
+2018-06-26 20:40:28,588 [8] INFO  Umbraco.Core.CoreBootManager - [P8172/T1/D2] Umbraco application startup complete (took 979ms)
+2018-06-26 20:40:29,135 [8] INFO  Umbraco.Core.ApplicationContext - [P8172/T1/D2] ApplicationUrl: http://localhost:53440/umbraco (UmbracoModule request)
+2018-06-26 20:40:37,787 [8] INFO  umbraco.content - [P8172/T1/D2] Load Xml from file...
+2018-06-26 20:40:37,792 [8] ERROR umbraco.content - [P8172/T1/D2] Failed to load Xml from file.
+System.Xml.XmlException: There is no Unicode byte order mark. Cannot switch to Unicode.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ThrowWithoutLineInfo(String res)
+   at System.Xml.XmlTextReaderImpl.CheckEncoding(String newEncodingName)
+   at System.Xml.XmlTextReaderImpl.ParseXmlDeclaration(Boolean isTextDecl)
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(Stream inStream)
+   at umbraco.content.LoadXmlFromFile()
+2018-06-26 20:40:37,796 [8] INFO  umbraco.content - [P8172/T1/D2] Loading content from database...
+2018-06-26 20:40:38,399 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-06-26 20:40:38,399 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2018-06-26 20:40:38,508 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2018-06-26 20:40:38,509 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2018-06-26 20:40:42,272 [8] INFO  umbraco.content - [P8172/T1/D2] Save Xml to file...
+2018-06-26 20:40:42,280 [8] INFO  umbraco.content - [P8172/T1/D2] Saved Xml to file.
+2018-06-26 20:40:52,355 [8] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [P8172/T1/D2] Login attempt succeeded for username bhayes@mytyresite.com from IP address ::1
+2018-06-26 20:40:52,519 [8] INFO  Umbraco.Web.Security.WebSecurity - [P8172/T1/D2] User Id: 0 logged in
+2018-06-26 20:40:52,640 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of umbraco.interfaces.IApplication
+2018-06-26 20:40:52,641 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 0ms)
+2018-06-26 20:41:38,812 [8] INFO  umbraco.BusinessLogic.Log - [P8172/T1/D2] Log scrubbed.  Removed all items older than 2018-04-27 20:41:38
+2018-06-26 20:43:12,275 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of Umbraco.Web.Trees.TreeController
+2018-06-26 20:43:12,275 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2018-06-26 20:43:12,277 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of umbraco.interfaces.ITree
+2018-06-26 20:43:12,278 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 0ms)
+2018-06-26 20:43:12,291 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of umbraco.interfaces.ITree
+2018-06-26 20:43:12,292 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 0ms)
+2018-06-26 20:43:23,711 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-06-26 20:43:23,711 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 0ms)
+2018-06-26 20:47:15,912 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P8172/T1/D2] Content 'Welcome' with Id '1049' has been published.
+2018-06-26 20:47:20,031 [8] INFO  umbraco.content - [P8172/T1/D2] Save Xml to file...
+2018-06-26 20:47:20,037 [8] INFO  umbraco.content - [P8172/T1/D2] Saved Xml to file.
+2018-06-26 20:49:35,773 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P8172/T1/D2] Content 'Welcome' with Id '1049' has been published.
+2018-06-26 20:49:39,827 [8] INFO  umbraco.content - [P8172/T1/D2] Save Xml to file...
+2018-06-26 20:49:39,834 [8] INFO  umbraco.content - [P8172/T1/D2] Saved Xml to file.
+2018-06-26 20:52:31,707 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Starting resolution types of Umbraco.Web.Trees.TreeController
+2018-06-26 20:52:31,707 [8] INFO  Umbraco.Core.PluginManager - [P8172/T1/D2] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2018-06-26 20:56:10,055 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P8172/T1/D2] Content 'Welcome' with Id '1049' has been published.
+2018-06-26 20:56:14,109 [8] INFO  umbraco.content - [P8172/T1/D2] Save Xml to file...
+2018-06-26 20:56:14,114 [8] INFO  umbraco.content - [P8172/T1/D2] Saved Xml to file.
