@@ -9,19 +9,20 @@
     }
     @foreach (var item in selection)
     {
-
-        //try this maybe->   var props = Umbraco.Core.Models.IPublishedProperty[3];
-
-
-
+        
         <div style="width: 30%; display: inline-block; margin-top: 3vh; background: rgba(255,255,255,0.2)">
 
             @{
-                var itemImage = item.GetPropertyValue<IPublishedContent>("blogItemImage");
+                var itemImage = item.GetPropertyValue<List<IPublishedContent>>("blogItemImage");
+//                var itemImage = item.Properties[0];
                 var ImageUrl = "";
-                if (itemImage != null)
+                if (itemImage != null) //is always null
                 {
                     ImageUrl = itemImage.url;
+                }
+                else
+                {
+                    <p>The image was NULL</p>
                 }
             }
 
