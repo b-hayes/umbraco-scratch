@@ -1,0 +1,44 @@
+﻿@using Umbraco.Web.Media
+@using Umbraco.Core.Models
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+
+<div>
+    @{
+        var selection = CurrentPage.Site().FirstChild("BlogPage").Children("blogItem").Where("Visible");
+    }
+    @foreach (var item in selection)
+    {
+        
+        <div style="width: 30%; display: inline-block; margin-top: 3vh; background: rgba(255,255,255,0.2)">
+
+            @{
+                var itemImage = item.GetPropertyValue<List<IPublishedContent>>("blogItemImage");
+//                var itemImage = item.Properties[0];
+                var ImageUrl = "";
+                if (itemImage != null) //is always null
+                {
+                    ImageUrl = itemImage.url;
+                }
+                else
+                {
+                    <p>The image was NULL</p>
+                }
+            }
+
+            <div style="width: 100%; height: 200px">
+                <img src="@ImageUrl" style="width: 100%;">
+                <h3>@item.Name</h3>
+            </div>
+
+            <div style="width: 100%;">
+                the article text
+            </div>
+
+            <div>
+                <a href="@item.Url">@item.Name</a>
+            </div>
+
+        </div>
+    }
+</div>

@@ -1,0 +1,28 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+
+<style>
+    ul > li {
+        margin-left: 4vw;
+        text-align: left;
+    }
+</style>
+<section>
+    <article>
+        <div>
+            <div class="logo"></div>
+            
+            <h1>@Umbraco.Field("promoTitle")</h1>
+                
+            <p style="text-align: left">@Umbraco.Field("promoSubTitle")</p>
+
+            <div class="cta">
+                <a href="/Umbraco/" class="button">@Umbraco.Field("promoButtonText")</a>
+            </div>
+
+        </div>
+    </article>
+
+</section>
