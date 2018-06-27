@@ -1,0 +1,4 @@
+section .logo {
+    background: url(/images/1-up.png) no-repeat;
+    background-size: cover;
+}/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
