@@ -1,4 +1,5 @@
 ﻿@using Umbraco.Web.Media
+@using Umbraco.Core.Models
 @inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 
 
@@ -8,6 +9,11 @@
     }
     @foreach (var item in selection)
     {
+
+        //try this maybe->   var props = Umbraco.Core.Models.IPublishedProperty[3];
+
+
+
         <div style="width: 30%; display: inline-block; margin-top: 3vh; background: rgba(255,255,255,0.2)">
 
             @{
