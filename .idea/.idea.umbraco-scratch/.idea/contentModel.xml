@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Brad\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_umbraco-scratch.-50658299.00" t="ExcludeRecursive" />
-    <e p="X:\_Projects\umbraco-scratch" t="IncludeRecursive">
+    <e p="C:\TPCMS\Tests\umbraco-scratch" t="IncludeRecursive">
       <e p=".vs" t="Include">
         <e p="config" t="Include">
           <e p="applicationhost.config" t="Include" />
@@ -39,6 +38,7 @@
             <e p="installedPackages.config" t="Include" />
           </e>
         </e>
+        <e p="preview" t="Include" />
         <e p="TEMP" t="Include">
           <e p="ClientDependency" t="Include">
             <e p="1955573740_0f043948468846c29ea19e8d967ece37.cdJ" t="Include" />
@@ -84,29 +84,6 @@
           <e p="ExamineIndexes" t="Include">
             <e p="External" t="Include">
               <e p="Index" t="Include">
-                <e p="_u.fdt" t="Include" />
-                <e p="_u.fdx" t="Include" />
-                <e p="_u.fnm" t="Include" />
-                <e p="_u.frq" t="Include" />
-                <e p="_u.nrm" t="Include" />
-                <e p="_u.prx" t="Include" />
-                <e p="_u.tii" t="Include" />
-                <e p="_u.tis" t="Include" />
-                <e p="_u.tvd" t="Include" />
-                <e p="_u.tvf" t="Include" />
-                <e p="_u.tvx" t="Include" />
-                <e p="_u_2.del" t="Include" />
-                <e p="_v.cfs" t="Include" />
-                <e p="_w.cfs" t="Include" />
-                <e p="_x.cfs" t="Include" />
-                <e p="_x_1.del" t="Include" />
-                <e p="_y.cfs" t="Include" />
-                <e p="segments.gen" t="Include" />
-                <e p="segments_10" t="Include" />
-              </e>
-            </e>
-            <e p="Internal" t="Include">
-              <e p="Index" t="Include">
                 <e p="_14.fdt" t="Include" />
                 <e p="_14.fdx" t="Include" />
                 <e p="_14.fnm" t="Include" />
@@ -118,20 +95,45 @@
                 <e p="_14.tvd" t="Include" />
                 <e p="_14.tvf" t="Include" />
                 <e p="_14.tvx" t="Include" />
-                <e p="_14_2.del" t="Include" />
+                <e p="_14_1.del" t="Include" />
                 <e p="_15.cfs" t="Include" />
+                <e p="_15_1.del" t="Include" />
                 <e p="_16.cfs" t="Include" />
                 <e p="_16_1.del" t="Include" />
                 <e p="_17.cfs" t="Include" />
+                <e p="_17_1.del" t="Include" />
                 <e p="_18.cfs" t="Include" />
-                <e p="_18_1.del" t="Include" />
                 <e p="_19.cfs" t="Include" />
                 <e p="_19_1.del" t="Include" />
                 <e p="_1a.cfs" t="Include" />
-                <e p="_1a_1.del" t="Include" />
                 <e p="_1b.cfs" t="Include" />
+                <e p="_1b_1.del" t="Include" />
+                <e p="_1c.cfs" t="Include" />
                 <e p="segments.gen" t="Include" />
-                <e p="segments_19" t="Include" />
+                <e p="segments_1d" t="Include" />
+                <e p="write.lock" t="Include" />
+              </e>
+            </e>
+            <e p="Internal" t="Include">
+              <e p="Index" t="Include">
+                <e p="_1y.fdt" t="Include" />
+                <e p="_1y.fdx" t="Include" />
+                <e p="_1y.fnm" t="Include" />
+                <e p="_1y.frq" t="Include" />
+                <e p="_1y.nrm" t="Include" />
+                <e p="_1y.prx" t="Include" />
+                <e p="_1y.tii" t="Include" />
+                <e p="_1y.tis" t="Include" />
+                <e p="_1y.tvd" t="Include" />
+                <e p="_1y.tvf" t="Include" />
+                <e p="_1y.tvx" t="Include" />
+                <e p="_1y_1.del" t="Include" />
+                <e p="_1z.cfs" t="Include" />
+                <e p="_1z_1.del" t="Include" />
+                <e p="_20.cfs" t="Include" />
+                <e p="segments.gen" t="Include" />
+                <e p="segments_1w" t="Include" />
+                <e p="write.lock" t="Include" />
               </e>
             </e>
             <e p="InternalMember" t="Include">
@@ -146,14 +148,18 @@
             <e p="BodyPart_19a6fc09-ca7f-452b-98da-86227836e747" t="Include" />
             <e p="BodyPart_1efb6d18-692a-4d7c-baad-e582d984f304" t="Include" />
             <e p="BodyPart_3af14074-7880-49c7-97a3-0756a4345e02" t="Include" />
+            <e p="BodyPart_a82b9713-d5d8-4809-87b6-89a1e6b838ec" t="Include" />
             <e p="BodyPart_ae5a4e8e-58a5-4a61-8af4-81e419298b39" t="Include" />
             <e p="BodyPart_b75f25e8-a656-4a92-a5fd-5444b80b6c5d" t="Include" />
+            <e p="BodyPart_bba843c8-b64f-49ff-bf8e-bea79532c915" t="Include" />
             <e p="BodyPart_dc32faa8-4e06-4b84-b87e-a5d453762dd9" t="Include" />
             <e p="BodyPart_dff84c66-85f4-4c56-9b6a-37e2ff8eaf9e" t="Include" />
             <e p="BodyPart_ef2798e8-2ec4-4582-8045-cc1d851ee8b3" t="Include" />
             <e p="BodyPart_f851e36c-1a2c-4d61-90d7-ee9787de315d" t="Include" />
+            <e p="BodyPart_fd2e0248-f2ff-4dc4-b9d8-e126c0089fe6" t="Include" />
             <e p="BodyPart_feb5824f-d475-48f4-8cf2-62a8d55d223b" t="Include" />
           </e>
+          <e p="Install" t="Include" />
           <e p="PluginCache" t="Include">
             <e p="umbraco-plugins.B-LAPTOP.hash" t="Include" />
             <e p="umbraco-plugins.B-LAPTOP.list" t="Include" />
@@ -258,6 +264,18 @@
           <e p="see-the-tables.png" t="Include" />
           <e p="see-the-tables_thumb.jpg" t="Include" />
         </e>
+        <e p="1011" t="Include">
+          <e p="add-database-in-visual-studio-2.png" t="Include" />
+          <e p="add-database-in-visual-studio-2_thumb.jpg" t="Include" />
+        </e>
+        <e p="1012" t="Include">
+          <e p="see-the-tables.png" t="Include" />
+          <e p="see-the-tables_thumb.jpg" t="Include" />
+        </e>
+        <e p="1013" t="Include">
+          <e p="add-database-in-visual-studio-1.png" t="Include" />
+          <e p="add-database-in-visual-studio-1_thumb.jpg" t="Include" />
+        </e>
       </e>
       <e p="packages" t="Include">
         <e p="bootstrap.4.1.1" t="Include">
@@ -350,23 +368,6 @@
       <e p="packages.config" t="Include" />
       <e p="PrecompiledWeb" t="Include">
         <e p="localhost_56331" t="Include">
-          <e p=".vs" t="Include">
-            <e p="config" t="Include">
-              <e p="applicationhost.config" t="Include" />
-            </e>
-            <e p="umbraco-scratch" t="Include">
-              <e p="v15" t="Include">
-                <e p="Server" t="Include">
-                  <e p="sqlite3" t="Include">
-                    <e p="db.lock" t="Include" />
-                    <e p="storage.ide" t="Include" />
-                    <e p="storage.ide-shm" t="Include" />
-                    <e p="storage.ide-wal" t="Include" />
-                  </e>
-                </e>
-              </e>
-            </e>
-          </e>
           <e p=".vscode" t="Include">
             <e p="iisexpress.json" t="Include" />
           </e>
@@ -429,26 +430,6 @@
               <e p="ExamineIndexes" t="Include">
                 <e p="External" t="Include">
                   <e p="Index" t="Include">
-                    <e p="_u.fdt" t="Include" />
-                    <e p="_u.fdx" t="Include" />
-                    <e p="_u.fnm" t="Include" />
-                    <e p="_u.frq" t="Include" />
-                    <e p="_u.nrm" t="Include" />
-                    <e p="_u.prx" t="Include" />
-                    <e p="_u.tii" t="Include" />
-                    <e p="_u.tis" t="Include" />
-                    <e p="_u.tvd" t="Include" />
-                    <e p="_u.tvf" t="Include" />
-                    <e p="_u.tvx" t="Include" />
-                    <e p="_u_1.del" t="Include" />
-                    <e p="_v.cfs" t="Include" />
-                    <e p="_w.cfs" t="Include" />
-                    <e p="segments.gen" t="Include" />
-                    <e p="segments_y" t="Include" />
-                  </e>
-                </e>
-                <e p="Internal" t="Include">
-                  <e p="Index" t="Include">
                     <e p="_14.fdt" t="Include" />
                     <e p="_14.fdx" t="Include" />
                     <e p="_14.fnm" t="Include" />
@@ -462,11 +443,43 @@
                     <e p="_14.tvx" t="Include" />
                     <e p="_14_1.del" t="Include" />
                     <e p="_15.cfs" t="Include" />
+                    <e p="_15_1.del" t="Include" />
                     <e p="_16.cfs" t="Include" />
                     <e p="_16_1.del" t="Include" />
                     <e p="_17.cfs" t="Include" />
+                    <e p="_17_1.del" t="Include" />
+                    <e p="_18.cfs" t="Include" />
+                    <e p="_19.cfs" t="Include" />
+                    <e p="_19_1.del" t="Include" />
+                    <e p="_1a.cfs" t="Include" />
+                    <e p="_1b.cfs" t="Include" />
+                    <e p="_1b_1.del" t="Include" />
+                    <e p="_1c.cfs" t="Include" />
                     <e p="segments.gen" t="Include" />
-                    <e p="segments_15" t="Include" />
+                    <e p="segments_1d" t="Include" />
+                    <e p="write.lock" t="Include" />
+                  </e>
+                </e>
+                <e p="Internal" t="Include">
+                  <e p="Index" t="Include">
+                    <e p="_1y.fdt" t="Include" />
+                    <e p="_1y.fdx" t="Include" />
+                    <e p="_1y.fnm" t="Include" />
+                    <e p="_1y.frq" t="Include" />
+                    <e p="_1y.nrm" t="Include" />
+                    <e p="_1y.prx" t="Include" />
+                    <e p="_1y.tii" t="Include" />
+                    <e p="_1y.tis" t="Include" />
+                    <e p="_1y.tvd" t="Include" />
+                    <e p="_1y.tvf" t="Include" />
+                    <e p="_1y.tvx" t="Include" />
+                    <e p="_1y_1.del" t="Include" />
+                    <e p="_1z.cfs" t="Include" />
+                    <e p="_1z_1.del" t="Include" />
+                    <e p="_20.cfs" t="Include" />
+                    <e p="segments.gen" t="Include" />
+                    <e p="segments_1w" t="Include" />
+                    <e p="write.lock" t="Include" />
                   </e>
                 </e>
                 <e p="InternalMember" t="Include">
@@ -481,12 +494,15 @@
                 <e p="BodyPart_19a6fc09-ca7f-452b-98da-86227836e747" t="Include" />
                 <e p="BodyPart_1efb6d18-692a-4d7c-baad-e582d984f304" t="Include" />
                 <e p="BodyPart_3af14074-7880-49c7-97a3-0756a4345e02" t="Include" />
+                <e p="BodyPart_a82b9713-d5d8-4809-87b6-89a1e6b838ec" t="Include" />
                 <e p="BodyPart_ae5a4e8e-58a5-4a61-8af4-81e419298b39" t="Include" />
                 <e p="BodyPart_b75f25e8-a656-4a92-a5fd-5444b80b6c5d" t="Include" />
+                <e p="BodyPart_bba843c8-b64f-49ff-bf8e-bea79532c915" t="Include" />
                 <e p="BodyPart_dc32faa8-4e06-4b84-b87e-a5d453762dd9" t="Include" />
                 <e p="BodyPart_dff84c66-85f4-4c56-9b6a-37e2ff8eaf9e" t="Include" />
                 <e p="BodyPart_ef2798e8-2ec4-4582-8045-cc1d851ee8b3" t="Include" />
                 <e p="BodyPart_f851e36c-1a2c-4d61-90d7-ee9787de315d" t="Include" />
+                <e p="BodyPart_fd2e0248-f2ff-4dc4-b9d8-e126c0089fe6" t="Include" />
                 <e p="BodyPart_feb5824f-d475-48f4-8cf2-62a8d55d223b" t="Include" />
               </e>
               <e p="PluginCache" t="Include">
@@ -499,111 +515,6 @@
             <e p="umbraco-scratch.mdf" t="Include" />
             <e p="umbraco-scratch_log.ldf" t="Include" />
             <e p="umbraco.config" t="Include" />
-          </e>
-          <e p="Bin" t="Include">
-            <e p="__browserCapabilitiesCompiler.compiled" t="Include" />
-            <e p="amd64" t="Include">
-              <e p="Microsoft.VC90.CRT" t="Include">
-                <e p="Microsoft.VC90.CRT.manifest" t="Include" />
-                <e p="msvcr90.dll" t="Include" />
-                <e p="README_ENU.txt" t="Include" />
-              </e>
-              <e p="sqlceca40.dll" t="Include" />
-              <e p="sqlcecompact40.dll" t="Include" />
-              <e p="sqlceer40EN.dll" t="Include" />
-              <e p="sqlceme40.dll" t="Include" />
-              <e p="sqlceqp40.dll" t="Include" />
-              <e p="sqlcese40.dll" t="Include" />
-            </e>
-            <e p="App_Browsers.dll" t="Include" />
-            <e p="App_Browsers.pdb" t="Include" />
-            <e p="App_global.asax.compiled" t="Include" />
-            <e p="App_global.asax.dll" t="Include" />
-            <e p="App_global.asax.pdb" t="Include" />
-            <e p="AutoMapper.dll" t="Include" />
-            <e p="AutoMapper.Net4.dll" t="Include" />
-            <e p="AutoMapper.xml" t="Include" />
-            <e p="businesslogic.dll" t="Include" />
-            <e p="businesslogic.xml" t="Include" />
-            <e p="ClientDependency.Core.dll" t="Include" />
-            <e p="ClientDependency.Core.Mvc.dll" t="Include" />
-            <e p="cms.dll" t="Include" />
-            <e p="cms.xml" t="Include" />
-            <e p="controls.dll" t="Include" />
-            <e p="controls.xml" t="Include" />
-            <e p="CookComputing.XmlRpcV2.dll" t="Include" />
-            <e p="Examine.dll" t="Include" />
-            <e p="HtmlAgilityPack.dll" t="Include" />
-            <e p="HtmlAgilityPack.xml" t="Include" />
-            <e p="ICSharpCode.SharpZipLib.dll" t="Include" />
-            <e p="ImageProcessor.dll" t="Include" />
-            <e p="ImageProcessor.Web.dll" t="Include" />
-            <e p="interfaces.dll" t="Include" />
-            <e p="interfaces.xml" t="Include" />
-            <e p="log4net.dll" t="Include" />
-            <e p="Lucene.Net.dll" t="Include" />
-            <e p="Lucene.Net.xml" t="Include" />
-            <e p="Microsoft.ApplicationBlocks.Data.dll" t="Include" />
-            <e p="Microsoft.Web.Infrastructure.dll" t="Include" />
-            <e p="Microsoft.Web.Mvc.FixedDisplayModes.dll" t="Include" />
-            <e p="MiniProfiler.dll" t="Include" />
-            <e p="MiniProfiler.xml" t="Include" />
-            <e p="MySql.Data.dll" t="Include" />
-            <e p="Newtonsoft.Json.dll" t="Include" />
-            <e p="Newtonsoft.Json.xml" t="Include" />
-            <e p="SQLCE4Umbraco.dll" t="Include" />
-            <e p="SQLCE4Umbraco.XML" t="Include" />
-            <e p="System.Data.SqlServerCe.dll" t="Include" />
-            <e p="System.Data.SqlServerCe.Entity.dll" t="Include" />
-            <e p="System.Net.Http.Formatting.dll" t="Include" />
-            <e p="System.Net.Http.Formatting.xml" t="Include" />
-            <e p="System.Web.Helpers.dll" t="Include" />
-            <e p="System.Web.Helpers.xml" t="Include" />
-            <e p="System.Web.Http.dll" t="Include" />
-            <e p="System.Web.Http.WebHost.dll" t="Include" />
-            <e p="System.Web.Http.WebHost.xml" t="Include" />
-            <e p="System.Web.Http.xml" t="Include" />
-            <e p="System.Web.Mvc.dll" t="Include" />
-            <e p="System.Web.Mvc.xml" t="Include" />
-            <e p="System.Web.Razor.dll" t="Include" />
-            <e p="System.Web.Razor.xml" t="Include" />
-            <e p="System.Web.WebPages.Deployment.dll" t="Include" />
-            <e p="System.Web.WebPages.Deployment.xml" t="Include" />
-            <e p="System.Web.WebPages.dll" t="Include" />
-            <e p="System.Web.WebPages.Razor.dll" t="Include" />
-            <e p="System.Web.WebPages.Razor.xml" t="Include" />
-            <e p="System.Web.WebPages.xml" t="Include" />
-            <e p="TidyNet.dll" t="Include" />
-            <e p="Umbraco.Core.dll" t="Include" />
-            <e p="Umbraco.Core.xml" t="Include" />
-            <e p="umbraco.DataLayer.dll" t="Include" />
-            <e p="umbraco.DataLayer.xml" t="Include" />
-            <e p="umbraco.dll" t="Include" />
-            <e p="umbraco.editorControls.dll" t="Include" />
-            <e p="umbraco.editorControls.xml" t="Include" />
-            <e p="umbraco.MacroEngines.dll" t="Include" />
-            <e p="umbraco.MacroEngines.xml" t="Include" />
-            <e p="umbraco.providers.dll" t="Include" />
-            <e p="umbraco.providers.xml" t="Include" />
-            <e p="Umbraco.Web.UI.dll" t="Include" />
-            <e p="Umbraco.Web.UI.XML" t="Include" />
-            <e p="umbraco.xml" t="Include" />
-            <e p="UmbracoExamine.dll" t="Include" />
-            <e p="UmbracoExamine.XML" t="Include" />
-            <e p="UrlRewritingNet.UrlRewriter.dll" t="Include" />
-            <e p="x86" t="Include">
-              <e p="Microsoft.VC90.CRT" t="Include">
-                <e p="Microsoft.VC90.CRT.manifest" t="Include" />
-                <e p="msvcr90.dll" t="Include" />
-                <e p="README_ENU.txt" t="Include" />
-              </e>
-              <e p="sqlceca40.dll" t="Include" />
-              <e p="sqlcecompact40.dll" t="Include" />
-              <e p="sqlceer40EN.dll" t="Include" />
-              <e p="sqlceme40.dll" t="Include" />
-              <e p="sqlceqp40.dll" t="Include" />
-              <e p="sqlcese40.dll" t="Include" />
-            </e>
           </e>
           <e p="config" t="Include">
             <e p="404handlers.config" t="Include" />
@@ -694,6 +605,18 @@
             <e p="1010" t="Include">
               <e p="see-the-tables.png" t="Include" />
               <e p="see-the-tables_thumb.jpg" t="Include" />
+            </e>
+            <e p="1011" t="Include">
+              <e p="add-database-in-visual-studio-2.png" t="Include" />
+              <e p="add-database-in-visual-studio-2_thumb.jpg" t="Include" />
+            </e>
+            <e p="1012" t="Include">
+              <e p="see-the-tables.png" t="Include" />
+              <e p="see-the-tables_thumb.jpg" t="Include" />
+            </e>
+            <e p="1013" t="Include">
+              <e p="add-database-in-visual-studio-1.png" t="Include" />
+              <e p="add-database-in-visual-studio-1_thumb.jpg" t="Include" />
             </e>
           </e>
           <e p="packages" t="Include">
@@ -8185,5 +8108,6 @@
         <e p="Web.config" t="Include" />
       </e>
     </e>
+    <e p="C:\Users\MyTyreSite\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_umbraco-scratch.-1266196045.00" t="ExcludeRecursive" />
   </component>
 </project>

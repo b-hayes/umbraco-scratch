@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<preserve resultType="2" virtualPath="/localhost_56331/App_Browsers/" hash="7742941a" filehash="9baf12c49d588c3" flags="110000" assembly="App_Browsers" type="ASP.ApplicationBrowserCapabilitiesFactory">
+<preserve resultType="2" virtualPath="/localhost_56331/App_Browsers/" hash="7742941a" filehash="369d7a0594dc537f" flags="110000" assembly="App_Browsers" type="ASP.ApplicationBrowserCapabilitiesFactory">
     <filedeps>
         <filedep name="/localhost_56331/App_Browsers/Form.browser" />
         <filedep name="/localhost_56331/App_Browsers/w3cvalidator.browser" />

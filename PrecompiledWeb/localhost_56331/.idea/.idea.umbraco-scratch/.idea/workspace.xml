@@ -5,8 +5,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.umbraco-scratch/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.umbraco-scratch/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.umbraco-scratch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.umbraco-scratch/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App_Data/Logs/UmbracoTraceLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/App_Data/Logs/UmbracoTraceLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_Data/TEMP/ExamineIndexes/External/Index/_u_1.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_Data/TEMP/ExamineIndexes/External/Index/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/App_Data/TEMP/ExamineIndexes/External/Index/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_Data/TEMP/ExamineIndexes/External/Index/segments_y" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_Data/TEMP/ExamineIndexes/Internal/Index/_14_1.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_Data/TEMP/ExamineIndexes/Internal/Index/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/App_Data/TEMP/ExamineIndexes/Internal/Index/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_Data/TEMP/ExamineIndexes/Internal/Index/segments_15" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/App_Data/umbraco-scratch.mdf" beforeDir="false" afterPath="$PROJECT_DIR$/App_Data/umbraco-scratch.mdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App_Data/umbraco-scratch_log.ldf" beforeDir="false" afterPath="$PROJECT_DIR$/App_Data/umbraco-scratch_log.ldf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_Data/umbraco.config" beforeDir="false" afterPath="$PROJECT_DIR$/App_Data/umbraco.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Web.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umbraco-scratch.sln" beforeDir="false" afterPath="$PROJECT_DIR$/umbraco-scratch.sln" afterDir="false" />
     </list>
@@ -28,12 +35,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="jdbc:hsqldb:file:C:/TPCMS/Tests/umbraco-scratch/App_Data/umbraco-scratch.mdf/" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileEditorManager">
@@ -41,8 +43,8 @@
       <file leaf-file-name="umbraco-scratch.sln" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/umbraco-scratch.sln">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="340">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -151,12 +153,12 @@
       <option name="presentableId" value="Default" />
       <updated>1530071187695</updated>
       <workItem from="1530071189984" duration="276000" />
-      <workItem from="1530100931634" duration="439000" />
+      <workItem from="1530100931634" duration="1608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="715000" />
+    <option name="totallyTimeSpent" value="1884000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -169,7 +171,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -177,14 +178,14 @@
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21551724" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.23814656" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.18283582" />
+      <window_info anchor="bottom" id="Build" weight="0.23814656" />
+      <window_info anchor="right" id="Database" order="3" weight="0.18283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -208,8 +209,8 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f642809e-aa91-452d-94ff-5e836d5f9f5d/console.sql" />
     <entry file="file://$PROJECT_DIR$/umbraco-scratch.sln">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="340">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
         </state>
       </provider>
     </entry>
